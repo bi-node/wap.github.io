@@ -1,0 +1,45 @@
+.row {
+        display: flex;
+  }
+  
+  .column {
+    flex: 1; 
+    padding: 2px;
+  }
+  
+  .column img {
+    width: 60%; /* Occupy the entire width of the column */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 200px; /* Set a maximum height for the images */
+  }
+
+  h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(0, 69, 167);
+    font-size: 1.8em;
+
+  }
+  h1
+  {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.5em;
+    font-weight: 20px;
+    font-style: oblique;
+    color:rgb(1, 32, 75);
+  }
+  body{
+    background-color:rgb(193, 193, 193) ;
+    font-size: 1em;
+    font-weight: 10px;
+    
+  }
+  #intro{
+    color: rgb(1, 95, 99);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5em;
+    text-align: justify;
+  }
+  a:hover{
+    color: aqua;
+    
+  }

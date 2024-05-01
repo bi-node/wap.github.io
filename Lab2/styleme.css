@@ -39,7 +39,15 @@
     font-size: 1.5em;
     text-align: justify;
   }
+  a:link{
+    color: #7700fff8;
+  }
+  a:visited{
+    color: #6a005df8;
+  }
   a:hover{
-    color: aqua;
-    
+    color:aquamarine
+  }
+  a:active{
+    color: chartreuse;
   }

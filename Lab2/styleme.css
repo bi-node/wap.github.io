@@ -11,6 +11,7 @@
     width: 60%; /* Occupy the entire width of the column */
     height: auto; /* Maintain aspect ratio */
     max-height: 200px; /* Set a maximum height for the images */
+    font-weight: 400;
   }
 
   h2{

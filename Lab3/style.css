@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(133, 133, 133);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ContainerHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#title{
+   
+    font-size: 3em;
+    font-weight: 1000;
+    text-align: center;
+    
+}
+
+#logout{
+    font-size: 2em;
+    text-align: center;
+   /* border: 3px solid red; */
+   width: 4em;
+   margin-right: 2em;
+   padding: 0.5em;
+   font-weight: 600;
+   border-radius: 12px;
+   background-color:  rgb(0, 0, 0);
+   color:  rgb(133, 133, 133);
+}
+#logo{
+    margin:1em;
+}
+
+.row{
+    margin-left: 4em;
+    display: flex;
+    justify-content: space-between;
+     width: 60%;
+     height: 2.5em;
+   
+}
+.column{
+    flex-basis: 25%; /* Equal width columns */
+    text-align: center;
+    outline: 1px solid rgb(23, 23, 23);
+    outline-offset: -1px;
+    align-items: center;
+    padding-top: 0.5em;
+    font-weight: 500;
+    
+}
+
+h2{
+    height: fit-content;
+    margin: 0.5em; /* Adjust top and bottom margin */
+    margin-left: 2em;
+}
+
+.one
+{
+    background-color:rgb(23, 23, 23) ;
+    color: rgb(133, 133, 133);
+    font-weight: bolder;
+}
+#lastrow
+{
+    width: 60%;
+    margin-left: 4em;
+    height: 2.5em;
+    border:1px solid rgb(23, 23, 23);
+    text-align: right;
+    
+}
+.no{
+    border: 2px solid rgb(41, 41, 41);
+    width: 2em;
+    display: inline-block
+}

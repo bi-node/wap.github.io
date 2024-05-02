@@ -81,10 +81,9 @@ h2{
 }
 .placeorder
 {
-    border: 2px solid black;
     display: inline;
-    padding: 1em;
-    margin-left: 40%;
+    padding: 0.5em;
+    margin-left: 50%;
     border-radius: 12px;
     background-color:  rgb(0, 0, 0);
     color:  rgb(133, 133, 133);

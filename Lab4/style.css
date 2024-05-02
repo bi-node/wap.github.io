@@ -31,7 +31,7 @@ body{
 @media (max-width: 768px) {
     #outer {
         width: 95%;
-        padding: 5px;
+        padding: 2px;
     }
 }
 
@@ -103,12 +103,23 @@ span{
     font-weight: 800;
 }
 
+input[type="text"],
+textarea {
+    width: 95%; 
+    padding: 3px; 
+    box-sizing: border-box; 
+   
+}
+
+
 @media (max-width: 768px) {
     input[type="text"],
-    textarea {
+    textarea , input[type="checkbox"]{
         width: 95%; 
-        padding: 8px; 
-        margin-bottom: 8px; 
+        padding: 1px; 
+        margin-bottom: 2px; 
     }
 }
+
+
 

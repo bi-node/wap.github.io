@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./style.css" rel="stylesheet">
+</head>
+<body>
+    <form action="#">
+    <div id="outer">
+        <div class="heading" >
+            <div  id="title1">Workshop Registration</div>
+            <div   id="actions"> More Actions <span id="downlogo"> &#x0036</span></div>
+        </div>
+
+        <br>
+     <div class="encloseRows">
+        <div class="encloseCols">
+            
+            <!-- top row header -->
+           
+            <div class="underlineText">Register now while seats are available!</div>
+            <br>
+
+            <!-- first row -->
+
+            <div class="row">
+                <div class="column"><label for=fname>First Name </label><span>*</span></div>
+                <div class="column"><input type="text" name="firstname" id="fname" autofocus required></div>
+            </div>
+            <br>
+            <!-- second row -->
+
+            <div class="row">
+                <div class="column"><label for=lname>Last Name </label><span>*</span></div>
+                <div class="column"><input type="text" name="lastname" id="lname" required></div>
+            </div>
+            <br>
+
+            <!-- third row -->
+            <div class="row">
+                <div class="column"><label for=company>Company Institution </label><span>*</span></div>
+                <div class="column"><input type="text" name="company" id="company" required></div>
+            </div>
+            <br>
+
+            <!--  fourth row-->
+            <div class="row">
+                <div class="column"><label for=address>Address</label></div>
+                <div class="column"><textarea cols="20" rows="6">  </textarea></div>
+            </div>
+            <br>
+
+            <!-- fifth row -->
+            <div class="row">
+                <div class="column"><label for=city>City</label></div>
+                <div class="column"><input type="text" name="city" id="city"></div>
+            </div>
+            <br>
+
+            <!-- sixth row -->
+            
+            <div class="row">
+                <div class="column"><label >State/Province/Region</label></div>
+                <div class="column">
+                    <select name="state">
+                        <option disabled selected>--Select--</option>
+                        <option>Alabama</option>
+                        <option>California</option>
+                        <option>Florida</option>
+                        <option >Iowa</option>
+                        <option>Kansas</option>
+                        <option>Minnasota</option>
+                        <option>Virginia</option>
+                        <option>Utah</option>
+                    </select>
+                </div>
+            </div>
+            <br>
+            <!-- seventh -->
+            <div class="row">
+                <div class="column"><label for=country>Country</label></div>
+                <div class="column">
+                    <select name="state">
+                        <option disabled selected>--Select--</option>
+                        <option>Albania</option>
+                        <option>China</option>
+                        <option>England</option>
+                        <option >Nepal</option>
+                        <option >U.S.A</option>
+                    </select>
+                </div>
+            </div>
+            <br>
+
+            <!-- eighth -->
+            <div class="row">
+                <div class="column"><label for=email >Email </label><span>*</span></div>
+                <div class="column"><input type="text" name="email" id="email" required 
+                    pattern="[a-z]+[.\-_]?[.a-z0-9]+@[a-z]+\.[a-z]{2,3}" title="email should be in abc@xx.xx format"></div>
+                    
+            </div>
+            <br>
+                <!-- ninth -->
+                <div class="row">
+                    <div class="column"><label for=phone>Phone no. </label><span>*</span></div>
+                    <div class="column"><input type="text" name="phone" id="phone" required
+                        pattern="[1-90-9]{3}-\d{3}-\d{4}" title="Phone should be in xxx-xxx-xxxx format"></div>
+                </div>
+                <br>
+    
+<!-- end of leftpanel -->
+        </div>
+
+        <div class="encloseCols">
+            <br>
+            <br>
+            <div class="underlineText extra" >Lunch</div>
+            <br>
+            <!-- start of right panel first row -->
+            <div class="row">
+                <div class="column"><label for=phone>Meal Preference</label></div>
+                <div class="column">
+                    <select name="state">
+                        <option>Vegeterian</option>
+                        <option>Vegan</option>
+                        <option selected>Non-Vegeterian</option>
+                    </select>
+                </div>
+            </div>
+            <br>
+            <!-- start of right panel second row -->
+            <div class="extra"> Payment Details</div>
+            <br>
+            <div class="row">
+                <div class="column">Payment Mode</div>
+                <div class="column">
+                    <input type="checkbox" name="mode" value="cash">Cash<br>
+                    <input type="checkbox" name="mode" value="check">Cheque<br>
+                    <input type="checkbox" name="mode" value="draft">Demand Draft<br>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+           <!-- start of right panel third row -->
+           <div class="row">
+                    <div class="column"><label for=cn>DD Cheque No.</label></div>
+                    <div class="column"><input type="text" name="checkno" id="cn"></div>
+            </div>
+             <br>
+             <!-- start of right panel fourth row -->
+           <div class="row">
+                <div class="column"><label for=bank>Drawn on(Bank Name)</label></div>
+                <div class="column"><input type="text" name="bank" id="bank"></div>
+            </div>
+             <br>
+
+             <!-- start of right panel fifth row -->
+           <div class="row">
+                <div class="column"><label for=pay>Payble at</label></div>
+                <div class="column"><input type="text" name="pay" id="pay"></div>
+             </div>
+            <br>
+        </div>
+        
+<!-- end of right panel -->
+
+     </div>
+<!-- end of bigger row -->
+<br>
+
+
+<div class="buttons">
+    <button>Reset</button>
+    <button >Submit</button>
+</div>
+
+   
+   
+</div>
+<!-- end of outerbox -->
+</form>
+<!-- end of form -->
+      
+<footer>
+    <br>
+     <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fbi-node.github.io%2Fwap.github.io%2FLab4%2Fstyle.css"><img src="../Lab2/css_checker.png" alt="CSS Checker" height="40"></a> 
+     <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fbi-node.github.io%2Fwap.github.io%2FLab4%2Findex.html"><img src="../Lab2/htmlchecker.png" alt="HTML checker" height="40"></a>
+</footer>
+    
+</body>
+</html>

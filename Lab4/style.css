@@ -17,15 +17,25 @@ body{
     margin-left: 1em;
    
 }
-#outer{
+
+
+#outer {
     border: 0.3em solid rgb(0, 156, 106);
-   
-    width: 80%;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto ;
+    max-width: 900px; 
+    width: 90%; 
+    margin: 0 auto;
     
 }
+
+/* Adjust the width for smaller screens */
+@media (max-width: 768px) {
+    #outer {
+        width: 95%;
+        padding: 5px;
+    }
+}
+
+
 .encloseRows{
     display: flex;
     justify-content: space-between;
@@ -92,3 +102,13 @@ span{
     font-family: 'Webdings';
     font-weight: 800;
 }
+
+@media (max-width: 768px) {
+    input[type="text"],
+    textarea {
+        width: 95%; 
+        padding: 8px; 
+        margin-bottom: 8px; 
+    }
+}
+

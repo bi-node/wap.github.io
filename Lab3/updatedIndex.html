@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome page</title>
-    <link href="./style.css" rel="stylesheet">
+    <link href="./updatestyle.css" rel="stylesheet">
 </head>
 <body>
     <div class="ContainerHeader"> 
@@ -16,58 +16,70 @@
     <h2>
         Product list
     </h2>
-    <div class="table-wrapper">
-        <table>
-            <thead>
-                <tr>
-                    <th>Header 1</th>
-                    <th>Header 2</th>
-                    <th>Header 3</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Data 1</td>
-                    <td>Data 2</td>
-                    <td>Data 3</td>
-                </tr>
-                <!-- Add more rows as needed -->
-            </tbody>
-        </table>
-    </div>
+    <!-- first table -->
+    <table>
+        <tr>
+          <th>Name</th>
+          <th>Price</th>
+          <th>Stock</th>
+          <th>Action</th>
+        </tr>
+        <tr>
+          <td>Node.Js</td>
+          <td>9.99</td>
+          <td>8</td>
+          <td><img src="./action.png" alt="cart icon" width="25"></td>
+        </tr>
+        <tr>
+          <td>React</td>
+          <td>19.99</td>
+          <td>5</td>
+          <td><img src="./action.png" alt="cart icon" width="25"></td>
+        </tr>
+        <tr>
+          <td>Angular</td>
+          <td>29.99</td>
+          <td>13</td>
+          <td><img src="./action.png" alt="cart icon" width="25"></td>
+        </tr>
+      </table>
+
     
     <h2>
         Your Shopping Cart
     </h2>
-    <div class="row one" >
-        <div class="column">Name</div>
-        <div class="column">Price</div>
-        <div class="column">Total</div>
-        <div class="column">Quantity</div>
-    </div>
-    <div class="row">
-        <div class="column">Node.js</div>
-        <div class="column">9.99</div>
-        <div class="column">9.99</div>
-        <div class="column">
-            <span>-</span>
-            <span class="no">1</span>
-            <span>+</span>
-        </div>
-    </div>
-    <div class="row">
-        <div class="column">Angular</div>
-        <div class="column">29.99</div>
-        <div class="column">290.9</div>
-        <div class="column">
-            <span>-</span>
-            <span class="no">10</span>
-            <span>+</span>
-        </div>
-    </div>
-    <div  id="lastrow">
-        Total: 300.98
-    </div>
+<!-- second table -->
+<table>
+    <tr>
+      <th>Name</th>
+      <th>Price</th>
+      <th>Total</th>
+      <th>Quantity</th>
+    </tr>
+    <tr>
+      <td>Node.Js</td>
+      <td>9.99</td>
+      <td>9.99</td>
+      <td><span>-</span>
+        <span class="no">1</span>
+        <span>+</span></td>
+    </tr>
+    <tr>
+      <td>Angular</td>
+      <td>29.99</td>
+      <td>290.9</td>
+      <td><span>-</span>
+        <span class="no">10</span>
+        <span>+</span></td>
+    </tr>
+    <tr>
+       
+      <td colspan="4" id="lastrow">Total: 300.98</td>
+     
+    </tr>
+  </table>
+
+
     <br><br>
     <div class="placeorder">
                 Place Order
@@ -75,7 +87,7 @@
 
     <footer>
         <br>
-         <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fbi-node.github.io%2Fwap.github.io%2FLab3%2Fstyle.css"><img src="../Lab2/css_checker.png" alt="CSS Checker" height="40"></a> 
+         <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fbi-node.github.io%2Fwap.github.io%2FLab3%2Fupdatestyle.css"><img src="../Lab2/css_checker.png" alt="CSS Checker" height="40"></a> 
          <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fbi-node.github.io%2Fwap.github.io%2FLab3%2Findex.html"><img src="../Lab2/htmlchecker.png" alt="HTML checker" height="40"></a>
     </footer>
     

@@ -1,0 +1,89 @@
+body{
+    background-color: rgb(133, 133, 133);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ContainerHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#title{
+   
+    font-size: 3em;
+    font-weight: 1000;
+    text-align: center;
+    
+}
+
+#logout{
+    font-size: 2em;
+    text-align: center;
+   /* border: 3px solid red; */
+   width: 4em;
+   margin-right: 2em;
+   padding: 0.5em;
+   font-weight: 600;
+   border-radius: 12px;
+   background-color:  rgb(0, 0, 0);
+   color:  rgb(133, 133, 133);
+}
+#logo{
+    margin:1em;
+}
+
+
+h2{
+    height: fit-content;
+    margin: 0.5em; /* Adjust top and bottom margin */
+    margin-left: 2em;
+}
+
+.one
+{
+    background-color:rgb(23, 23, 23) ;
+    color: rgb(133, 133, 133);
+    font-weight: bolder;
+}
+
+.no{
+    border: 2px solid rgb(41, 41, 41);
+    width: 2em;
+    display: inline-block
+}
+.placeorder
+{
+    display: inline;
+    padding: 0.5em;
+    margin-left: 50%;
+    border-radius: 12px;
+    background-color:  rgb(0, 0, 0);
+    color:  rgb(133, 133, 133);
+    font-weight: 900;
+    
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: 4em;
+
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color:  rgb(0, 0, 0);
+    color: rgb(133, 133, 133);
+}
+
+#lastrow{
+   text-align: right;
+   padding-right: 250px;
+   font-weight: 500;
+
+}

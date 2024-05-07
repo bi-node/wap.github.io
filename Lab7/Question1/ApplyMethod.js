@@ -10,4 +10,4 @@ let group = {
     }
 };
 
-group.showList.apply(group);
+group.showList();

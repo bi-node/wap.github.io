@@ -6,12 +6,27 @@ const students = [
     { name: 'Katie', grades: [66, 77], courses:['cs303', 'cs477'] }
   ];
   
-  const averageGrades = students
-    .filter(student => student.courses.includes('cs303'))
-    .reduce((result, student) => {
-      const avgGrade = student.grades.reduce((sum, grade) => sum + grade, 0) / student.grades.length;
-      return { ...result, [student.name]: avgGrade };
-    }, {});
+  // const averageGrades = students
+  //   .filter(student => student.courses.includes('cs303'))
+  //   .reduce((result, student) => {
+  //     const avgGrade = student.grades.reduce((sum, grade) => sum + grade, 0) / student.grades.length;
+  //     return { ...result, [student.name]: avgGrade };
+  //   }, {});
   
-  console.log(averageGrades);
+  // console.log(averageGrades);
+//other way
+const avg = students
+  .filter(student => student.courses.includes('cs303')) // Filter students enrolled in CS303
+  .reduce((accum, current) => {
+    const { name, grades } = current;
+   
+    // Calculate average grade
+    const averageGrade = grades.reduce((ave, g, index, array) => ave + g / array.length, 0);
+    // Store the average grade corresponding to the student's name
+    accum[name] = averageGrade;
+    return accum;
+  }, {});
+
+console.log(avg);
+  
   

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link href="/products.css" rel="stylesheet">
+</head>
+<body>
+    <form action="/products" method="POST">
+        <div>Item Name:<input name="itemName" type="text" required></div>
+        <div>Item Price:<input name="itemPrice" type="number" step=".01" required></div>
+        <div>Item Category:<input name="itemCategory" type="text" required></div>
+        <div><button type="submit">Create new Product</button></div>
+    </form>
+</body>
+</html>

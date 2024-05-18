@@ -1,0 +1,36 @@
+GET http://localhost:3000/books
+
+###
+POST http://localhost:3000/books
+Content-Type: application/json
+
+{
+  "title": "New book 2",
+  "author": {
+    "authorId": 301,
+    "firstname": "John",
+    "lastname": "Smith"
+  }
+}
+
+###
+GET http://localhost:3000/books/1
+
+###
+GET http://localhost:3000/books?firstname=k
+
+###
+DELETE http://localhost:3000/books/1
+
+###
+PUT http://localhost:3000/books/1
+Content-Type: application/json
+
+{
+  "title": "Ghost book",
+  "author": {
+    "authorId": 310,
+    "firstname": "Peter",
+    "lastname": "Perk"
+  }
+}
